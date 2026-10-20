@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-secondary: var(--ink-secondary);
+  --color-ink-muted: var(--ink-muted);
+  --color-border: var(--border);
+  --color-grid: var(--grid);
+  --color-accent: var(--accent);
+  --color-accent-2: #268bd2;
+  --color-band: rgba(217, 89, 38, 0.18);
+  --color-band-2: rgba(38, 139, 210, 0.18);
+  --color-good: #0ca30c;
+  --color-warning: #fab219;
+  --color-serious: #ec835a;
+  --color-critical: #d03b3b;
+  
+  --font-archivo: "Archivo", system-ui, sans-serif;
+}
+
+:root {
+  /* Dark Theme (Default) */
+  --bg: #14110d;
+  --surface: #1c1812;
+  --surface-2: #241f18;
+  --ink: #f2ede4;
+  --ink-secondary: #c2b9ac;
+  --ink-muted: #8f887a;
+  --border: rgba(242, 237, 228, 0.14);
+  --grid: rgba(242, 237, 228, 0.09);
+  --accent: #d95926;
+  --accent-ink: #fff4ec;
+  --band: rgba(217, 89, 38, 0.18);
+  --good: #0ca30c;
+  --warning: #fab219;
+  --serious: #ec835a;
+  --critical: #d03b3b;
+}
+
+.light {
+  /* Light Theme */
+  --bg: #faf9f6;
+  --surface: #ffffff;
+  --surface-2: #f2f1ed;
+  --ink: #1c1812;
+  --ink-secondary: #4a453e;
+  --ink-muted: #736d63;
+  --border: rgba(28, 24, 18, 0.12);
+  --grid: rgba(28, 24, 18, 0.06);
+  --accent: #d95926;
+  --accent-ink: #fff4ec;
+  --band: rgba(217, 89, 38, 0.12);
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

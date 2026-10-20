@@ -1,0 +1,6 @@
+{
+  "name": "Recurrencia Sísmica Centroamericana",
+  "description": "Estimador probabilístico interactivo de recurrencia sísmica en Centroamérica y el Caribe basado en modelos de Gutenberg–Richter y MCMC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
